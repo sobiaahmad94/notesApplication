@@ -15,6 +15,7 @@ public class NoteTest {
         note = new Note();
     }
 
+    // testing getting content
     @Test
     public void testGetContent() {
         String expectedContent = "Test content";
@@ -23,6 +24,7 @@ public class NoteTest {
         assertEquals(expectedContent, actualContent);
     }
 
+    // testing setting the content
     @Test
     public void testSetContent() {
         String initialContent = "Initial content";
@@ -30,6 +32,7 @@ public class NoteTest {
         assertEquals(initialContent, note.getContent());
     }
 
+    // testing when content is set to null
     @Test
     public void testSetContentWithNull() {
         note.setContent(null);
