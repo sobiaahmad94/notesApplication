@@ -4,7 +4,7 @@ package com.sobianotes;
  * Hello world!
  *
  */
-public class App 
+public class NotesApp
 {
     public static void main( String[] args )
     {
