@@ -1,4 +1,10 @@
-import com.sobianotes.Note;
+package com.sobianotes;
+
+// classes boilerplate
+//import com.sobianotes.Note;
+//import com.sobianotes.NoteFileManager;
+
+
 import com.sobianotes.NoteFileManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -25,6 +31,7 @@ public class NoteFileManagerTest {
         note.setContent("Test content");
     }
 
+    // testing saving note to file method
     @Test
     void testSaveNoteToFile() {
         try {
@@ -35,6 +42,7 @@ public class NoteFileManagerTest {
         }
     }
 
+    // testing saving the content to the file
     @Test
     void testSaveNoteContentToFile() {
         try {
@@ -47,6 +55,7 @@ public class NoteFileManagerTest {
         }
     }
 
+    // testing loading file from finder view
     @Test
     void testLoadNoteFromFile() {
         try {
